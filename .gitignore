@@ -1,0 +1,25 @@
+# Nested clones — link upstream instead of republishing whole trees
+mirrors/40kdc-data/
+mirrors/game-datacards-datasources/
+mirrors/bsd-schema/
+mirrors/40k-11th-list-builder/
+mirrors/**/.git/
+
+# May contain third-party catalogue binaries; prefer release URLs + local cache
+mirrors/40kdc-releases/
+*.catz
+*.gstz
+
+# Secrets / private authoring that might quote GW
+**/_private/
+**/secrets/
+**/*License.xml
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vs/
+.vscode/
+.idea/
+*.log
